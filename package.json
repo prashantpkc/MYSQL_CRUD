@@ -1,0 +1,20 @@
+{
+  "name": "node-mysql-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple Node.js boilerplate with MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
